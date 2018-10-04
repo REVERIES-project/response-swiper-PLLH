@@ -1,0 +1,35 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../iron-swipeable-container/iron-swipeable-container.html">
+
+<!--
+`response-swiper-PLLH`
+
+
+@demo demo/index.html
+-->
+
+<dom-module id="response-swiper-PLLH">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>[[instruction]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'response-swiper-PLLH',
+
+      properties: {
+        instruction: {
+          type: String,
+          value: 'Enlevez svp les propositions fausses',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
